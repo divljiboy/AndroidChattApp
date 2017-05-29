@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="messageTextStyle">
+        <item name="android:paddingStart">@dimen/x_small_margin</item>
+        <item name="android:paddingEnd">@dimen/x_small_margin</item>
+        <item name="android:textSize">@dimen/large_text</item>
+        <item name="android:layout_marginTop">@dimen/small_medium_margin</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <style name="messageTimeStyle">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:textSize">@dimen/small_text</item>
+    </style>
+</resources>

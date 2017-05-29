@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/userLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/x_small_margin"
+        android:orientation="vertical">
+
+
+
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/userPhoto"
+            fresco:roundedCornerRadius="25dp"
+
+            style="@style/userPhotoStyle" />
+        <TextView
+            android:id="@+id/messageTime"
+            style="@style/messageTimeStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/medium_margin"
+        android:layout_marginRight="@dimen/medium_margin"
+        android:layout_toLeftOf="@+id/userLayout"
+        android:layout_toStartOf="@+id/userLayout"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/messageUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@color/secondary_text"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/messageText"
+            style="@style/messageTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textAlignment="textEnd" />
+
+    </LinearLayout>
+
+</RelativeLayout>

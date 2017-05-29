@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "813882430358",
+    "firebase_url": "https://chatapp2017ivandivljak.firebaseio.com",
+    "project_id": "chatapp2017ivandivljak",
+    "storage_bucket": "chatapp2017ivandivljak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813882430358:android:e505bc279029a19c",
+        "android_client_info": {
+          "package_name": "eu.execom.chatapplicationspring2017"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813882430358-ikmfcr287l9r1mghri4qtvutbh8batkn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "eu.execom.chatapplicationspring2017",
+            "certificate_hash": "ea4f1177b8f91ac0dd3808d2ed54a3673ef36b05"
+          }
+        },
+        {
+          "client_id": "813882430358-hlmr1ppbbn9gh770ia03dtkmvbieop5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCceZXLEq8LD6Nnz3HsDd_oJcz-WCi_0Bw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813882430358-hlmr1ppbbn9gh770ia03dtkmvbieop5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ChatApplicationSpring2017</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="conversation_name">Conversation name</string>
+    <string name="create_conversation">Create conversation</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+</resources>
